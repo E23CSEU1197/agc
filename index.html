@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Goal Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Attendance Goal Calculator</h1>
+        <div class="calculator">
+            <div class="input-group">
+                <label for="attended">Classes attended so far</label>
+                <input type="number" id="attended" min="0" placeholder="Enter number">
+            </div>
+            <div class="input-group">
+                <label for="total">Total classes completed so far</label>
+                <input type="number" id="total" min="0" placeholder="Enter number">
+            </div>
+            <div class="input-group">
+                <label for="target">Target attendance percentage</label>
+                <input type="number" id="target" min="0" max="100" placeholder="Enter percentage">
+            </div>
+            <button id="calculate">Calculate</button>
+            <div class="result" id="result">
+                <p>Enter your attendance data to calculate</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
